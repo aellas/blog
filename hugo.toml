@@ -1,7 +1,7 @@
  GGeURL = 'https://example.org/'
 languageCode = 'en-gb'
 title = 'Array Blogs'
-theme = "paper"
+theme = "terminal"
 
 [[params.socialIcons]]
 name = "gitlab"
