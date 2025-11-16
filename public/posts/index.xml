@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Array Blogs</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>//localhost:1313/posts/</link>
     <description>Recent content in Posts on Array Blogs</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en-gb</language>
     <lastBuildDate>Sun, 16 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Surf Browser &amp; Wayland</title>
-      <link>http://localhost:1313/posts/surf-wayland/</link>
+      <link>//localhost:1313/posts/surf-wayland/</link>
       <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/surf-wayland/</guid>
-      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headline-1&#34;&gt;&#xA;Surf&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;I&amp;#39;ve been using the Surf browser as a drop in replacement for web apps on Firefox and I&amp;#39;ve been absolutely loving it. Surf provides you with the bare minimum (frameless!) experience and it&amp;#39;s exactly what I want. Now, I know Floorp does have support for them, but having to have an instance of Floorp open in order to use them is a deal breaker for me. Now, the problem with Surf is that it&amp;#39;s only for x11 and when you try to use it in Wayland you&amp;#39;re greeted with:&lt;/p&gt;</description>
+      <guid>//localhost:1313/posts/surf-wayland/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-1&#34;&gt;
+Surf
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;I&amp;#39;ve been using the Surf browser as a drop in replacement for web apps on Firefox and I&amp;#39;ve been absolutely loving it. Surf provides you with the bare minimum (frameless!) experience and it&amp;#39;s exactly what I want. Now, I know Floorp does have support for them, but having to have an instance of Floorp open in order to use them is a deal breaker for me. Now, the problem with Surf is that it&amp;#39;s only for x11 and when you try to use it in Wayland you&amp;#39;re greeted with:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

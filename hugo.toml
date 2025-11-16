@@ -1,14 +1,41 @@
  GGeURL = 'https://example.org/'
 languageCode = 'en-gb'
 title = 'Array Blogs'
-theme = "terminal"
+theme = "PaperMod"
 
-[[params.socialIcons]]
-name = "gitlab"
-url = "https://gitlab.com/lxde"
+[params]
+env = "production"
+title = "Array Blogs"
+description = "I just do stuff"
+keywords = [ "Blog", "Portfolio", "PaperMod" ]
+author = "Array"
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
 
-[Languages.en-gb.params.author]
-  #avatar = "avatar.jpg"
-  intro = "Array's Blog"
-  name = "Zac P"
-  description = "I like linux"
+  [params.homeInfoParams]
+  Title = "Hi There! 👋"
+  Content = "Welcome to my blog! Here you'll find random stuff I write about [mainly linux related] & I also live my life in emacs and org mode."
+
+  [[params.socialIcons]]
+  name = "gitlab"
+  url = "https://gitlab.com/lxde"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/aellas"
