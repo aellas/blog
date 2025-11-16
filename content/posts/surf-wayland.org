@@ -1,0 +1,29 @@
+#+title: Surf Browser & Wayland
+#+date: <2025-11-16 Sun>
+#+tags[]: Suckless Linux Wayland
+
+** Surf
+I've been using the Surf browser as a drop in replacement for web apps on Firefox and I've been absolutely loving it. Surf provides you with the bare minimum (frameless!) experience and it's exactly what I want. Now, I know Floorp does have support for them, but having to have an instance of Floorp open in order to use them is a deal breaker for me. Now, the problem with Surf is that it's only for x11 and when you try to use it in Wayland you're greeted with:
+#+begin_src sh
+dk-WARNING **: 10:38:27.309: ../gtk/gdk/x11/gdkwindow-x11.c:5633 drawable is not a native X11 window
+#+end_src
+
+A quick fix for that is to use this, thus will allow you to use Surf on Wayland: 
+
+#+begin_src sh 
+#!/usr/bin/env sh
+
+GDK_BACKEND=x11 surf "$@" 
+#+end_src
+
+Here is an example of using Surf to get a frameless web app experience
+
+#+begin_src sh 
+#!/usr/bin/env sh
+
+GDK_BACKEND=x11 /usr/bin/surf "$@" 'https://music.youtube.com/'
+#+end_src
+
+#+ATTR_HTML: :title music
+[[../../images/music.png]]
+Checkout [[https://surf.suckless.org/]] For more information on Surf Browser.

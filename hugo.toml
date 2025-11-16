@@ -1,0 +1,14 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-gb'
+title = 'Array Blogs'
+theme = "paper"
+
+[[params.socialIcons]]
+name = "gitlab"
+url = "https://gitlab.com/lxde"
+
+[Languages.en-gb.params.author]
+  #avatar = "avatar.jpg"
+  intro = "Array's Blog"
+  name = "Zac P"
+  description = "I like linux"
